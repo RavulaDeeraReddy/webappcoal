@@ -7,7 +7,7 @@ from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing import image
 from tensorflow.python.ops.gen_array_ops import concat
 
-model=load_model(r"coal1.h5")
+model=load_model(r"coal.h5")
 
 app = Flask(__name__)
 
